@@ -1,0 +1,69 @@
+Pattern1
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+Pattern2
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+
+Pattern3
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+
+Pattern4
+a 
+b b 
+c c c 
+d d d d 
+e e e e e 
+
+Pattern5
+a 
+a b 
+a b c 
+a b c d 
+a b c d e 
+
+Pattern6
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
+
+Pattern7
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+
+Pattern8
+ 1
+ 2  3
+ 4  5  6
+ 7  8  9 10
+11 12 13 14 15
+
+Pattern9
+1 
+2 1 
+3 2 1 
+4 3 2 1 
+5 4 3 2 1 
+
+Pattern10
+a 
+b a 
+c b a 
+d c b a 
+e d c b a
