@@ -1,0 +1,17 @@
+package PatternSet4;
+
+public class Pattern5 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++) {
+			for(int j=1;j<i;j++) {
+				System.out.print("  ");
+			}
+			for(int k=i;k<=5;k++) {
+				System.out.print((char)(k+96)+" ");
+			}
+			System.out.println();
+		}
+	}
+
+}
