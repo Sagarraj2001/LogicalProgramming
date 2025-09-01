@@ -18,7 +18,7 @@ public class Neon {
 			sum+=rem;
 			square/=10;
 		}
-		return sum==num ? true : false;
+		return sum==num ;
 		
 	}
 	public static int square(int num) {
