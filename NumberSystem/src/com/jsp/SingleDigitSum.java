@@ -2,7 +2,7 @@ package com.jsp;
 
 public class SingleDigitSum {
 	public static void main(String[] args) {
-		int num = 5545;
+		int num = 55456;
 		System.out.println(singleDigitSum(num));
 	}
 

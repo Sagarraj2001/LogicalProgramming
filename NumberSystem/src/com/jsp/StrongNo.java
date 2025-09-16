@@ -2,7 +2,7 @@ package com.jsp;
 
 public class StrongNo {
 	public static void main(String[] args) {
-		int num = 155;
+		int num = 145;
 		if (isStrong(num)) {
 			System.out.println("Given No is Strong");
 		} else {
