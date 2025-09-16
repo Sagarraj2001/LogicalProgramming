@@ -29,6 +29,7 @@ public class NthUniqueCharacter {
 					uniqueCount++;
 					if (uniqueCount == n) {
 						System.out.println(ch[i]);
+						break;
 					}
 				}
 

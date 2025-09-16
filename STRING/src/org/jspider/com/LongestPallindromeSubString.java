@@ -19,19 +19,20 @@ public class LongestPallindromeSubString {
 		System.out.println(longest);
 	}
 
-	static boolean isPallindrome(String sub) {
-//		String rev = new StringBuffer(sub).reverse().toString();
-//		return sub.equals(rev);
-		int left = 0, right = sub.length() - 1;
-        while (left < right) {
-            if (sub.charAt(left) != sub.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
-    }
-
+	static boolean isPallindrome(String s) {
+		String temp = s;
+		char ch[] = s.toCharArray();
+		int i = 0;
+		int j = s.length() - 1;
+		while (i < j) {
+			char tem = ch[i];
+			ch[i] = ch[j];
+			ch[j] = tem;
+			i++;
+			j--;
+		}
+		s = new String(ch);
+		return temp.equals(s);
 	}
 
+}
