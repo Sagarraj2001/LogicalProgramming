@@ -102,3 +102,20 @@ Pattern 11
 * * 
 * * * 
 * * * * 
+
+
+Pattern 12
+
+*           * 
+* *       * * 
+* * *   * * * 
+* * * * * * * 
+
+
+Pattern 13
+
+h       h
+he     eh
+hel   leh
+hell lleh
+hellolleh
